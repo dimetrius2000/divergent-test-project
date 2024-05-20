@@ -10,7 +10,13 @@
 
 ##### 2. Запустите Flask
 
+Linux:
 `FLASK_APP=app.py flask run --host=0.0.0.0`
+Windows:
+```
+set FLASK_APP=app.py
+flask run --host=0.0.0.0
+```
 
 Свидетельство успешного запуска сервера:
 ```
